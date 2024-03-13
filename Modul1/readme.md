@@ -309,10 +309,10 @@ Program di atas adalah contoh penggunaan vektor dan fungsi transform dalam bahas
 
 ## Perbedaan Array dengan Map
 1. Array
-Array adalah tipe data terstruktur yang berguna untuk menyimpan sejumlah data yang bertipe sama. Array biasanya ditulis dalam bentuk sebuah variabel yang didefinisikan dengan indeks awal dan akhirnya. Setiap elemen dalam array dapat diakses menggunakan indeks. Array tidak memiliki fitur untuk membuat hubungan antara data yang sederhana.
+adalah tipe data terstruktur yang berguna untuk menyimpan sejumlah data yang bertipe sama. Array biasanya ditulis dalam bentuk sebuah variabel yang didefinisikan dengan indeks awal dan akhirnya. Setiap elemen dalam array dapat diakses menggunakan indeks. Array tidak memiliki fitur untuk membuat hubungan antara data yang sederhana.
    
 3. Map
-Map adalah tipe data yang menyimpan data dalam bentuk key-value pairs, dimana setiap elemen dalam map terdiri dari kunci dan nilai yang dipetakan. Map memiliki fitur untuk membuat hubungan antara kunci dan nilai yang kompleks. Map dapat digunakan untuk menyimpan data yang bersifat asosiatif, dimana kunci dapat berupa tipe data yang tidak harus berupa bilangan bulat.
+adalah tipe data yang menyimpan data dalam bentuk key-value pairs, dimana setiap elemen dalam map terdiri dari kunci dan nilai yang dipetakan. Map memiliki fitur untuk membuat hubungan antara kunci dan nilai yang kompleks. Map dapat digunakan untuk menyimpan data yang bersifat asosiatif, dimana kunci dapat berupa tipe data yang tidak harus berupa bilangan bulat.
 
 Perbedaan antara array dan map terkait performance adalah bahwa array lebih efisien untuk menyimpan data yang berurutan dan dapat diakses menggunakan indeks, sedangkan map lebih efisien untuk menyimpan data yang bersifat asosiatif dan dapat diakses menggunakan kunci. Kebutuhan memory dan performance saat mengakses data juga berbeda antara array dan map.
 
