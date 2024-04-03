@@ -1052,7 +1052,7 @@ Linked list sirkular adalah struktur data linear di mana setiap elemen terhubung
 Dalam struktur data linked list, terdapat dua jenis utama: linked list linear dan linked list sirkular. Linked list linear adalah struktur data di mana setiap elemen terhubung dengan elemen berikutnya dalam satu arah, dengan elemen terakhir menunjuk ke null. Sementara itu, linked list sirkular adalah varian di mana elemen terakhir terhubung kembali ke elemen pertama, membentuk lingkaran. Keuntungan linked list sirkular adalah tidak ada elemen yang "membuntuti" akhir, sehingga operasi navigasi lebih mudah. Namun, perlu hati-hati dalam penanganan kasus khusus, seperti linked list kosong. Kedua jenis linked list ini memiliki kegunaan dan kompleksitas waktu operasi yang berbeda, sehingga penting untuk memilih jenis yang sesuai dengan kebutuhan aplikasi dan melakukan penanganan khusus sesuai kebutuhan.
 
 ## Referensi
-[1] "Pengertian Linked List: Struktur Data dalam Pemrograman.
+[1] "Pengertian Linked List: Struktur Data dalam Pemrograman". fikti.umsu. 2023.
 https://fikti.umsu.ac.id/pengertian-linked-list-struktur-data-dalam-pemrograman/
 
 [2] "Struktur Data Linked List: Pengertian, Karakteristik, dan Jenis-jenisnya" Trivusi. 2022
