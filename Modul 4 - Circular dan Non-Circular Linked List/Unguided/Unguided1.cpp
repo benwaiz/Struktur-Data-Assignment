@@ -7,7 +7,7 @@ using namespace std;
 
 struct Mahasiswa {
     string name;
-    int id;
+    string id;
     Mahasiswa* next;
 };
 
@@ -21,7 +21,7 @@ public:
     }
 
     // Menambahkan mahasiswa di depan
-    void tambahDepan(string name, int id) {
+    void tambahDepan(string name, string id) {
         Mahasiswa* newMahasiswa = new Mahasiswa;
         newMahasiswa->name = name;
         newMahasiswa->id = id;
@@ -42,7 +42,7 @@ public:
     }
 
     // Menambahkan mahasiswa di belakang
-    void tambahBelakang(string name, int id) {
+    void tambahBelakang(string name, string id) {
         Mahasiswa* newMahasiswa = new Mahasiswa;
         newMahasiswa->name = name;
         newMahasiswa->id = id;
@@ -62,7 +62,7 @@ public:
     }
 
     // Menambahkan mahasiswa di tengah
-    void tambahTengah(string name, int id, int posisi) {
+    void tambahTengah(string name, string id, int posisi) {
         if (posisi <= 0) {
             cout << "Posisi harus lebih dari 0!" << endl;
             return;
@@ -96,7 +96,7 @@ public:
     }
 
     // Ubah data mahasiswa di depan
-    void ubahDepan(string name, int id) {
+    void ubahDepan(string name, string id) {
         if (head == nullptr) {
             cout << "Linked List Kosong!" << endl;
             return;
@@ -107,7 +107,7 @@ public:
     }
 
     // Ubah data mahasiswa di belakang
-    void ubahBelakang(string name, int id) {
+    void ubahBelakang(string name, string id) {
         if (head == nullptr) {
             cout << "Linked List Kosong!" << endl;
             return;
@@ -122,7 +122,7 @@ public:
     }
 
     // Ubah data mahasiswa di tengah
-    void ubahTengah(string name, int id, int posisi) {
+    void ubahTengah(string name, string id, int posisi) {
         if (head == nullptr) {
             cout << "Linked List Kosong!" << endl;
             return;
@@ -252,8 +252,8 @@ public:
 int main() {
     LinkedListCircular list;
     int choice;
-    string name;
-    int id, posisi;
+    string name, id;
+    int posisi;
 
     do {
         cout << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-";
